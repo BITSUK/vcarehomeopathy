@@ -1,0 +1,76 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans|Lobster);
+
+body {font: normal 15px "Open Sans"; color: #333; background: #b7e5ea; }
+
+
+
+.component h2,.component h3 { margin: 15px 0 5px 0; font: normal 24px 'Open Sans'; padding-bottom:8px;}
+
+h1, h2, h3, h4, h5, h6 {color: #000000;}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {color: #000000;text-decoration: none;}
+h1 a:visited, h2 a:visited, h3 a:visited, h4 a:visited, h5 a:visited, h6 a:visited {color: #000000;}
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {color: #000000;}
+
+a, a:visited {color: #0f74a3;}
+a:hover {color: #0f8bc5;}
+
+
+
+#body_wrapper {margin: 0px auto; }
+#content_wrapper {background: #fff; border-bottom: 2px solid #9dd4da; border-left: 1px solid #9dd4da; border-right: 1px solid #9dd4da;}
+#main, #left, #right, #top { padding: 10px; }
+#header_wrapper .wrapper {width: 980px; margin:0 auto;}
+#header_wrapper { background:#0a537e; }
+#header_photo { width: 978px; overflow:hidden; margin: 0 auto;border-left: 1px solid #9dd4da; border-right: 1px solid #9dd4da; text-align: center; background: #07527c;;}
+#header_photo img {  }
+
+#header_photo_nav_wrapper {background: #75cdd7; /* Old browsers */
+background: -moz-linear-gradient(top,  #09527d 0%, #75cdd7 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#09527d), color-stop(100%,#75cdd7)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #09527d 0%,#75cdd7 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #09527d 0%,#75cdd7 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #09527d 0%,#75cdd7 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #09527d 0%,#75cdd7 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#09527d', endColorstr='#75cdd7',GradientType=0 ); /* IE6-9 */
+}
+
+
+/*#header_text, #footer_wrapper .wrapper, #main .location, #right .location, #left .location, #top .location { background: #ffffff; border : 2px dotted #ccc; }*/
+#header_text {margin-top: 50px; background: #116488; /* Old browsers */
+background: -moz-linear-gradient(top,  #08537d 0%, #116488 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#08537d), color-stop(100%,#116488)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #08537d 0%,#116488 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #08537d 0%,#116488 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #08537d 0%,#116488 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #08537d 0%,#116488 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#08537d', endColorstr='#116488',GradientType=0 ); /* IE6-9 */
+}
+#header_text h1#site_heading a {font: normal 54px 'Lobster'; color: #fff; 
+text-shadow: 2px 2px 2px #07557c;
+filter: dropshadow(color=#07557c, offx=2, offy=2);}
+#header_text h2#site_subheading {font: normal 16px 'Open Sans'; color: #eee;}
+#nav_wrapper {background: transparent; }
+#primary_navigation {width:980px; margin:0 auto; background: #07527c;}
+#primary_navigation ul li a {font: normal 14px/50px 'Open Sans'; text-transform: uppercase; text-decoration: none; color: #fff; margin:0 2px; padding: 15px; }
+#primary_navigation ul li a:hover, #primary_navigation ul li a:active { color: #fff; background: #116487;   }
+#primary_navigation ul li.active a { color: #fff; background: #116487;  }
+
+.metadata {font-size: 11px; border-top : 2px dotted #ccc; }
+
+
+
+.navigation_component ul {list-style-type: none; font-size: 15px; padding: 0; margin: 0;}
+.navigation_component ul a {text-decoration: none; }
+.navigation_component ul li {padding: 5px 10px; margin: 0;}
+.navigation_component ul ul {padding-left: 35px; list-style-type: circle;}
+
+
+.component input {min-height: 25px; border-radius:3px;}
+.component  input, .component textarea {border: 1px solid #ccc; background-color: #ddd; border-radius:3px; color:#000; }
+input.form_field_submit_button, .submit_wrapper input {background: #0a537e; color: #fff; font-weight: bold; border-radius:3px; border:0; padding: 8px 12px;}
+input.form_field_submit_button:hover, .submit_wrapper input:hover { background: #1b76ac; border:0; }
+
+
+#left .component h2, #left .component h3, #right .component h2, #right .component h3  { color: #fff; font: normal 15px 'Open Sans'; padding: 10px; background: #116487;}
+
+#footer_wrapper {background: #75cdd7; border: 1px solid #75cdd7; margin-bottom:30px;}
