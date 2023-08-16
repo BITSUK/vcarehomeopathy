@@ -1,2 +1,2 @@
 # vcarehomeopathy
-Website code
+Its a static website with just two pages
